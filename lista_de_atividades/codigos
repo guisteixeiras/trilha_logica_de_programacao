@@ -1,0 +1,55 @@
+1 -
+
+let dia = prompt('Qual o dia da semana? ');
+console.log('Dia da semana', dia);
+
+if (dia == 'domingo') {
+    alert(`Bom final de semana!`);
+} else if (dia == 'sabado') {
+    alert(`Bom final de semana!`);
+} else {
+     alert('Boa semana!');
+}
+
+2 -
+
+let num = prompt('Digite um número: ');
+console.log('numero: ', num);
+
+if (num < 0) {
+    alert(`${num} é um número negativo!`);
+} else{
+    alert(`${num} é positivo!`);
+}
+
+3 -
+
+let pontuacao = 100;
+
+// altere o valor da variável pontuação para testar
+
+console.log('pontuação: ', pontuacao);
+
+if (pontuacao >= 100) {
+    alert("Parabéns, você venceu!");
+} else{
+    alert(`Tente novamente para ganhar!`);
+}
+
+4 -
+
+let saldo = 1500.75;
+
+let mensagem = `Seu saldo atual é de R$ ${saldo}.`;
+alert(mensagem)
+
+console.log(mensagem);
+
+5 -
+
+let nome = prompt("Qual o seu nome? ");
+
+let mensagem = `Boas vindas! ${nome}.`;
+alert(mensagem)
+
+console.log(mensagem);
